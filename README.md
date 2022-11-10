@@ -12,7 +12,7 @@ Anthropocene Biodiversity. Any queries should be sent to the corresponding autho
 The majority of the analysis scripts for the manuscript 'Nine millennia of human-associated plant diversity increases' 
 were run on the  University of York's High Performance Computing cluster, Viking, or the University of York's research servers. 
 Without using computing resources such as these, the computational time required to run these analyses is intractable. 
-This project (holPol_demo) contains the same analysis scripts that were used to generate the results from the manuscript, 
+This project (holPolDemo) contains the same analysis scripts that were used to generate the results from the manuscript, 
 but they have been tailored to run on a random subset of sites, with a significantly reduced number of resamples (the full analyses 
 involve > 1000 pollen datasets, each resampled 1000 times). These scripts will run on your local machine in loops, rather than sent 
 to remote machines in parallel. Depending on the number of datasets included (default dataset *n* = 50, but you can change this as desired), 
